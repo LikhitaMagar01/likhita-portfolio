@@ -1,5 +1,37 @@
-# Vue 3 + TypeScript + Vite
+# Likhita's Portfolio
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+A modern portfolio website built with Vue 3, TypeScript, and Tailwind CSS.
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+## 🚀 Live Demo
+
+Visit my portfolio at: [https://yourusername.github.io/likhita-portfolio](https://yourusername.github.io/likhita-portfolio)
+
+## 🛠️ Tech Stack
+
+- **Frontend**: Vue 3 with TypeScript
+- **Styling**: Tailwind CSS
+- **Build Tool**: Vite
+- **Deployment**: GitHub Pages
+
+## 📦 Development
+
+```bash
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Build for production
+npm run build
+
+# Preview production build
+npm run preview
+```
+
+## 🎨 Features
+
+- Responsive design
+- Modern UI with Tailwind CSS
+- TypeScript for type safety
+- Fast development with Vite
