@@ -57,7 +57,7 @@ export default {
     {
       name: "Portfolio Website",
       description: "A personal portfolio website to showcase my projects and skills.",
-      link: "https://github.com/LikhitaMagar01/portfolio"
+      link: "https://github.com/LikhitaMagar01/likhita-portfolio"
     },
     {
       name: "Reusable Components in nuxt3",
