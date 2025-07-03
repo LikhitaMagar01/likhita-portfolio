@@ -11,7 +11,7 @@ export default {
     { icon: "fa-linkedin", url: "https://www.linkedin.com/in/leekhitame/" },
     { icon: "fa-instagram", url: "https://www.instagram.com/l_lala_land/" },
   ],
-  image: "/likhita.jpeg",
+  image: import.meta.env.BASE_URL + "likhita.jpeg",
   intro: "Hello There, I'm",
   highlightedName: "Likhita",
   roles: ["Software Engineer"],
