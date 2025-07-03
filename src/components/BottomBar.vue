@@ -14,7 +14,7 @@
 </template>
 
 <script setup lang="ts">
-const props = defineProps<{ selectedSection: string }>()
+defineProps<{ selectedSection: string }>()
 const emit = defineEmits(['section-change'])
 
 const navItems = [
