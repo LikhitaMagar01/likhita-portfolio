@@ -4,7 +4,7 @@ A modern portfolio website built with Vue 3, TypeScript, and Tailwind CSS.
 
 ## 🚀 Live Demo
 
-Visit my portfolio at: [https://yourusername.github.io/likhita-portfolio](https://yourusername.github.io/likhita-portfolio)
+Visit my portfolio at: [https://likhitamagar01.github.io/likhita-portfolio](https://likhitamagar01.github.io/likhita-portfolio)
 
 ## 🛠️ Tech Stack
 
