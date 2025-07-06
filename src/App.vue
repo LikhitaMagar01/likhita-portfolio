@@ -54,16 +54,15 @@ function handleSectionChange(section: string) {
               <h2 class="text-2xl font-bold mb-2">About Me</h2>
               <p class="text-gray-300 mb-4">
                 Hi! I'm Likhita Magar, a passionate Software Engineer based in Lalitpur, Nepal. I specialize in building modern, responsive, and accessible web applications with a focus on clean design and great user experience.<br><br>
-                With a strong foundation in JavaScript, TypeScript, and frameworks like Vue.js and React, I enjoy turning complex problems into simple, beautiful, and intuitive solutions. My experience spans across frontend and backend development, and I love collaborating with teams to bring ideas to life.
+                With a strong foundation in JavaScript, TypeScript, and frameworks like Vue.js and React, I enjoy turning complex problems into simple, beautiful, and intuitive solutions. My experience spans across frontend development, and I love collaborating with teams to bring ideas to life.
               </p>
               <h3 class="text-lg font-semibold mb-1 text-green-400">Skills & Tools</h3>
               <ul class="list-disc list-inside text-gray-400 mb-4">
                 <li>JavaScript, TypeScript, HTML5, CSS3</li>
-                <li>Vue.js, Nuxt.js, React, Next.js</li>
-                <li>Node.js, Fastify, REST APIs</li>
-                <li>MongoDB, MySQL, PostgreSQL</li>
+                <li>Vue.js, Nuxt.js, React, Next.js, Tailwind CSS, vuetify, </li>
                 <li>Git, GitHub</li>
                 <li>Responsive & Mobile-First Design</li>
+                <li>Webpack</li>
               </ul>
               <p class="text-gray-400 mb-3">
                 Beyond coding, I enjoy learning new technologies, contributing to open source, and sharing knowledge
