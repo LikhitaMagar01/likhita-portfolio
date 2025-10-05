@@ -40,19 +40,24 @@ export default {
     },
     {
       date: "2024-Present",
-      title: "Software Engineer",
+      title: "Software Engineer - Frontend Focused",
       company: "GlobalyHub"
     }
   ],
   projects: [
     {
-      name: "Rojgari",
+      name: "Rojgari - production",
       description: "A job portal platform for nepali users.",
       link: "https://rojgari.com/"
     },
     {
-      name: "Rojgari Control Panel",
+      name: "Rojgari Control Panel - production",
       description: "An in house control panel for rojgari.",
+    },
+    {
+      name: "Zync - chatting app",
+      description: "It is a real-time chatting web application with pwa.",
+      link: "https://github.com/LikhitaMagar01/Zync"
     },
     {
       name: "Portfolio Website",
