@@ -109,6 +109,7 @@ export default {
   contacts: [
     { type: "email", value: "leekhitame@gmail.com", icon: "fas fa-envelope", link: "mailto:leekhitame@gmail.com" },
     { type: "location", value: "Lalitpur, Nepal", icon: "fas fa-map-marker-alt" },
-    { type: "linkedin", value: "LinkedIn", icon: "fab fa-linkedin", link: "https://www.linkedin.com/in/leekhitame/" }
+    { type: "linkedin", value: "LinkedIn", icon: "fab fa-linkedin", link: "https://www.linkedin.com/in/leekhitame/" },
+    { type: "medium", value: "Medium", icon: "fab fa-medium", link: "https://medium.com/@leekhitame" }
   ]
 } 
