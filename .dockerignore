@@ -1,0 +1,19 @@
+When you run `docker build`, Docker first packages up your project folder and sends it to the Docker build engine — this is called the "build context." `.dockerignore` tells Docker which files/folders to leave out of that package, the same way `.gitignore` tells Git what to skip.
+
+Without this file, every `docker build` would zip up and transfer your entire `node_modules` folder (often hundreds of MB) even though the container reinstalls dependencies fresh anyway — slow builds for no reason, and occasionally a way for stale local files to sneak into an image unintentionally.
+
+# stuff docker shouldn't bother copying into the build context
+# (this made my first builds slow before I added it)
+
+node_modules
+dist
+dist-ssr
+
+.git
+.github
+
+*.log
+.vscode
+.idea
+.DS_Store
+*.local
