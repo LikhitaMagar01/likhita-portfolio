@@ -35,3 +35,10 @@ npm run preview
 - Modern UI with Tailwind CSS
 - TypeScript for type safety
 - Fast development with Vite
+
+
+### Docker 
+# to start with docker
+- docker compose up frontend --build
+- docker compose up frontend -d
+- docker compose down

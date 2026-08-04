@@ -1,0 +1,17 @@
+# one service for now, might add more later (like an api) so keeping this around
+services:
+  # calling it "frontend" so I can run: docker compose up frontend -d
+  frontend:
+    build:
+      # build from the Dockerfile in this same folder instead of pulling an image
+      context: .
+      dockerfile: Dockerfile
+      args:
+        VITE_BASE_PATH: /
+    # so docker images shows a name I recognize instead of a random id
+    image: likhita-portfolio:local
+    # host:container, visiting localhost:5173 goes to port 5173 in the container
+    ports:
+      - "5173:5173"
+    # restart on crash or reboot, but not if I stop it myself
+    restart: unless-stopped
